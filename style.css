@@ -31,16 +31,20 @@ body   {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    border-radius: 50px;
     margin-top: 20px;
+    background-color: transparent;
 }
 .search input{
     width: 60%;
     height: 40px;
-    border: none;
-    outline: blue;
-    padding: 10px;
+    border: solid gray 1px;
     border-radius: 50px;
-    color: #3b3b3b;
+    padding: 10px;
+    
+    color: #eae3e3;
+    background-color: transparent;
+
 }
 .search button{
     height: 40px;
@@ -48,6 +52,7 @@ body   {
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .weather-image{
